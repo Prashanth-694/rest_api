@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="Css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Documentation Page</h1>
+        <table>
+            <tr >
+                <th>End Point</th>
+                <th>Descreption</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>/addBook</td>
+                <td>It add the data into the database.</td>
+                <td>http://localhost:3000/addBook?bName=guns and thighs&bAuthor=rgv&releaseDate=2020-04-10&bPrice=100&bQuantity=12</td>
+            </tr>
+            <tr>
+                <td>/getOneBook</td>
+                <td>It fetch the single book data based on book id.</td>
+                <td>http://localhost:3000/getOneBook?bId=1</td>
+            </tr>
+            <tr>
+                <td>/getAllBooks</td>
+                <td>It fetch all the books from database.</td>
+                <td>http://localhost:3000/getAllBooks</td>
+            </tr>
+            <tr>
+                <td>/getAllBooksAescOnQuantity</td>
+                <td>It fetch all the books in aesc order based on quantity from database.</td>
+                <td>http://localhost:3000/getAllBooksAescOnQuantity</td>
+            </tr>
+            <tr>
+                <td>/getAllBooksAescOnName</td>
+                <td>It fetch all the books in aesc order based on name from database.</td>
+                <td>http://localhost:3000/getAllBooksAescOnName</td>
+            </tr>
+            <tr>
+                <td>/updateBook</td>
+                <td>It update the book quantity based on the book id.</td>
+                <td>http://localhost:3000/updateBook?bId=1&bQuantity=200</td>
+            </tr>
+            <tr>
+                <td>/deleteBook</td>
+                <td>It delete the book based on the book id.</td>
+                <td>http://localhost:3000/deleteBook?bId=1</td>
+            </tr>
+            
+        </table>
+    </center>
+</body>
+</html>

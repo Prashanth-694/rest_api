@@ -1,0 +1,15 @@
+{
+    "app": {
+        "port": 3000
+    },
+    "db": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "Stationary"
+    },
+    "atlasDb":{
+        "uName":"prashanth123",
+        "pass":"prashanth123",
+        "clusterName":"Stationary"
+    }
+}

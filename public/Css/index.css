@@ -1,0 +1,11 @@
+body{
+    background-color: khaki;
+}
+th{
+    background-color: aqua;
+    height: 40px;
+}
+tr,td{
+    background-color: rgb(107, 109, 109);
+    height: 70px;
+}
